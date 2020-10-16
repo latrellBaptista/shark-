@@ -1,4 +1,3 @@
-let mySprite: Sprite = null
 let PixelSHark = sprites.create(img`
     ..............cfff..............
     ............ccddbf..............
@@ -18,7 +17,7 @@ let PixelSHark = sprites.create(img`
     .............fffff..............
     `, SpriteKind.Player)
 PixelSHark.say("GitHub is awsome ")
-mySprite.setFlag(SpriteFlag.StayInScreen, true)
+PixelSHark.setFlag(SpriteFlag.StayInScreen, true)
 controller.moveSprite(PixelSHark)
 scene.setBackgroundImage(img`
     9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999995555555555555555555
